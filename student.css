@@ -1,0 +1,148 @@
+body {
+
+    background-color: rgb(232, 224, 214);
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    margin: 20px;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+h1, h3 {
+    text-align: center;
+    display: block;
+
+}
+
+ol li {
+    display: block;
+    text-align: center;
+}
+
+form {
+    margin: 20px auto;
+    max-width: 70%;
+    padding: 20px;
+    background-color: #99c8c9;
+    border: 2.5px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    
+    
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    margin : 10px;
+}
+
+form input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 3%;
+}
+label1{
+    margin-top: 0%;
+    margin-left: -30%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px; 
+   
+}
+
+select{
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px; 
+    margin-left: 2.5%;
+    width: 92.5%;
+
+}
+
+.radio-group {
+
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-left: 15%;
+    width: 50%;
+}
+
+
+
+form .checkbox-group {
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px; 
+    font-size: 13px;
+    margin-left: -5%;
+
+    
+    
+
+    
+}
+
+form button {
+    background-color: #161a1f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2%;
+    width: 90%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #007bff;
+} 
+
+table {
+    width: 80%;
+    border-collapse: collapse ;
+    background-color: #99c8c9;
+    margin: 20px auto;
+   
+
+}
+hr{
+    background-color: #000000;
+    height: 3px;
+    width: 50%;
+    color: #000000;
+}
+
+
+table th, table td {
+    border: 2.5px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #161a1f;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+} 

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="student.css"> 
+    <link rel="icon" href="iconl.png" type="image/png">
+    <body>
+        
+        <hr><h1><b>Student Enrollment Form</b><hr></h1>
+        <h3><i>INSTRUCTION</h3>
+    
+        <ol>
+            <li>Fill in the form fields.</li>
+            <li>Check your interests.</li>
+            <li>Click "Enroll Now" to submit.</i></li>
+        </ol>
+    
+        <form action="#" method="post">
+            <label><b>Enter Name : </label>
+            <input type="text" id="full-name" name="full-name" placeholder="Name">
+            <label>Enter Email : </label>
+            <input type="Email" id="email" name="email" placeholder="Email">
+            <label>Enter Age :</b></label>
+            <input type="number" id="age" name="age" placeholder="Age">
+    
+            <div class="radio-group">
+                <label1><b>Sex:</b></label1>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="sex" value="Male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="sex" value="Female">
+            </div>
+    
+            <label for="course"><b>Course Options:</label>
+            <select id="course" name="course">
+                <option value="BSIT">Bachelor of Science in Information Technology</option>
+                <option value="BSSW">Bachelor of Science in Social Work</option>
+                <option value="BSPA">Bachelor of Science in Public Administration</option>
+                <option value="BSPA">Bachelor of Science in Entrepreneurship</option>
+            </select>
+    
+            <label>Interests:</b></label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="web-dev" name="interests" value="Web Development">
+                <label for="web-dev">Web Development</label>
+                <input type="checkbox" id="data-sci" name="interests" value="Data Science">
+                <label for="data-sci">Data Science</label>
+                <input type="checkbox" id="networking" name="interests" value="Networking">
+                <label for="networking">Networking</label>
+                <input type="checkbox" id="graphic-design" name="interests" value="Graphic Design">
+                <label for="graphic-design">Graphic Design</label>
+                <input type="checkbox" id="other" name="interests" value="Other">
+                <label for="other">Other</label>
+            </div>
+    
+            <button type="submit">Enroll Now</button>
+        </form>
+    
+
+    <hr ><h3 ><i>ENROLLED STUDENTS</i><hr></h3>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Course</th>
+                <th>Interests</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Louie Bautistar</td>
+                <td>john.louie.bautistar@.com</td>
+                <td>21</td>
+                <td>Male</td>
+                <td>Bachelor of Science in Information Tecnology</td>
+                <td>Web Development</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jovanni Tolentino</td>
+                <td>jovanni.tolentino@.com</td>
+                <td>23</td>
+                <td>Female</td>
+                <td>Bachelor of Science in Social Work</td>
+                <td>Other</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Chiketeta Isabel Soriano</td>
+                <td>chiketeta.isabel.soriano@.com</td>
+                <td>20</td>
+                <td>Male</td>
+                <td>Bachelor of Science in Public Administration</td>
+                <td>Graphic Design</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Fernanda Morales</td>
+                <td>fernanda.morales@.com</td>
+                <td>22</td>
+                <td>Female</td>
+                <td>Bachelor of Science in Entrepreneurship</td>
+                <td>Other</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Jessie Dela Cruz</td>
+                <td>jessie.delacruz@.com</td>
+                <td>24</td>
+                <td>Male</td>
+                <td>Bachelor of Science in Information Tecnology</td>
+                <td>Networking</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Nieva Pole</td>
+                <td>nieva.pole@.com</td>
+                <td>24</td>
+                <td>Male</td>
+                <td>Bachelor of Science in Information Tecnology</td>
+                <td>Networking</td>
+            </tr>
+</tbody>
+    </table>
+</body>
+</html>
